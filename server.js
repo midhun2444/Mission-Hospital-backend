@@ -6,12 +6,12 @@ const morgan = require("morgan");
 const rateLimit = require("express-rate-limit");
 const connectDB = require("./db");
 
-const authRoutes = require("./routes/auth.routes");
-const departmentRoutes = require("./routes/department.routes");
-const doctorRoutes = require("./routes/doctor.routes");
-const patientRoutes = require("./routes/patient.routes");
-const appointmentRoutes = require("./routes/appointment.routes");
-const aiRoutes = require("./routes/ai.routes");
+const authRoutes = require("./auth.routes");
+const departmentRoutes = require("./department.routes");
+const doctorRoutes = require("./doctor.routes");
+const patientRoutes = require("./patient.routes");
+const appointmentRoutes = require("./appointment.routes");
+const aiRoutes = require("./ai.routes");
 
 const app = express();
 
