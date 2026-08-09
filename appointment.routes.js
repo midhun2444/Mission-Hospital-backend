@@ -6,7 +6,7 @@ const {
   listByPatient,
   cancelAppointment,
   rescheduleAppointment,
-} = require("../controllers/appointment.controller");
+} = require("./appointment.controller");
 
 router.get("/availability", getAvailability);
 router.post("/", createAppointment);
