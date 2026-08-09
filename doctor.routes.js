@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { listDoctors, getDoctor, createDoctor, updateDoctor } = require("../controllers/doctor.controller");
+const { listDoctors, getDoctor, createDoctor, updateDoctor } = require("./doctor.controller");
 const protect = require("./auth");
 const allowRoles = require("./role");
 
