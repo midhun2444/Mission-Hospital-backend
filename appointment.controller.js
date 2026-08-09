@@ -1,6 +1,6 @@
-const Appointment = require("../models/Appointment");
-const Doctor = require("../models/Doctor");
-const { tokenToArrivalTime } = require("../utils/tokenTime");
+const Appointment = require("./Appointment");
+const Doctor = require("./Doctor");
+const { tokenToArrivalTime } = require("./tokenTime");
 
 // GET /api/appointments/availability?doctorId=&date=YYYY-MM-DD
 // Returns the full token grid for that doctor/date with booked vs available.
