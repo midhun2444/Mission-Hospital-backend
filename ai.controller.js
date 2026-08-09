@@ -1,5 +1,5 @@
-const Doctor = require("../models/Doctor");
-const Department = require("../models/Department");
+const Doctor = require("./Doctor");
+const Department = require("./Department");
 
 /**
  * Lightweight rule-based responder so the assistant works out of the box
