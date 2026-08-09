@@ -1,4 +1,4 @@
-const Department = require("../models/Department");
+const Department = require("./Department");
 const Doctor = require("../models/Doctor");
 
 // GET /api/departments
