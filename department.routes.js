@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { listDepartments, createDepartment } = require("../controllers/department.controller");
+const { listDepartments, createDepartment } = require("./department.controller");
 const protect = require("../middleware/auth");
 const allowRoles = require("../middleware/role");
 
