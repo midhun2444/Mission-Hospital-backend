@@ -1,5 +1,5 @@
 const User = require("./User");
-const generateToken = require("../utils/generateToken");
+const generateToken = require("./generateToken");
 
 // POST /api/auth/register
 async function register(req, res) {
