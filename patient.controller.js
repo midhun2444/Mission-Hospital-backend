@@ -1,4 +1,4 @@
-const Patient = require("../models/Patient");
+const Patient = require("./Patient");
 
 // GET /api/patients/lookup/:fileNumber
 // Used by the "returning patient" step of the booking flow.
