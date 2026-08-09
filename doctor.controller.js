@@ -1,4 +1,4 @@
-const Doctor = require("../models/Doctor");
+const Doctor = require("./Doctor");
 
 // GET /api/doctors?department=cardiology&search=aanya&day=Mon
 async function listDoctors(req, res) {
