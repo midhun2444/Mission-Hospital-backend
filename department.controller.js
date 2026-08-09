@@ -1,5 +1,5 @@
 const Department = require("./Department");
-const Doctor = require("../models/Doctor");
+const Doctor = require("./Doctor");
 
 // GET /api/departments
 async function listDepartments(req, res) {
